@@ -5,6 +5,7 @@
   border: transparent;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .secondary {
   padding: 5px 20px;
@@ -12,4 +13,19 @@
   border: transparent;
   color: white;
   font-weight: bold;
+}
+
+.otp {
+  background-color: #fb641b;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 16px;
+  cursor: pointer;
 }
