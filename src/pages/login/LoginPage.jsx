@@ -1,3 +1,4 @@
+import Button from "../../components/Button/button";
 import AppBar from "../../components/appbar/AppBar";
 import CustomInput from "../../components/custominput/CustomInput";
 import "./login.css";
@@ -27,9 +28,7 @@ function LoginPage() {
                 <a href="/">Terms of use </a> and
                 <a href="/">Privacy Policy </a>
               </div>
-              <button type="submit" className="btn-opt">
-                Request OTP
-              </button>
+              <Button text="Request OTP" variant="otp" />
             </form>
             <div className="create-account">
               New to Flipkart? <a href="/">Create an account</a>
